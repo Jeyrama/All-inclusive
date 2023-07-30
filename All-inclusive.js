@@ -29,3 +29,5 @@ function containAllRots(str, arr) {
   }
   return true
 }
+
+// or
