@@ -31,3 +31,7 @@ function containAllRots(str, arr) {
 }
 
 // or
+
+function containAllRots(strng, arr) {
+  return [...strng].map((_,i) => strng.substr(i)+strng.slice(0,i)).every(x => arr.includes(x));
+}
