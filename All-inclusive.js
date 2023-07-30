@@ -17,3 +17,6 @@ Note:
   We will consider that there are no rotations of strng == "".
   And for any array arr: contain_all_rots("", arr) --> true.
 */
+
+
+// Solution
